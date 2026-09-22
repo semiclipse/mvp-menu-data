@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "menuId": "italian",
+  "revision": 1,
+  "version": "1.0.0",
+  "title": "Meat. Vegetables. Pasta.",
+  "notes": "Initial playtest menu.",
+  "recipes": [
+    {
+      "id": "arrabbiata",
+      "title": "Penne all’Arrabbiata",
+      "description": "Penne in a lively tomato and chili sauce.",
+      "points": 4,
+      "costs": [
+        {
+          "ingredient": "Pasta",
+          "amount": 2
+        },
+        {
+          "ingredient": "Sauce",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "caprese",
+      "title": "Caprese Salad",
+      "description": "Tomatoes, fresh mozzarella, basil. Keep it simple.",
+      "points": 4,
+      "costs": [
+        {
+          "ingredient": "Vegetables",
+          "amount": 2
+        },
+        {
+          "ingredient": "Cheese",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "grilledshrimp",
+      "title": "Grilled Shrimp & Vegetables",
+      "description": "Charred shrimp with seasonal vegetables.",
+      "points": 6,
+      "costs": [
+        {
+          "ingredient": "Seafood",
+          "amount": 2
+        },
+        {
+          "ingredient": "Vegetables",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "meatballs",
+      "title": "Spaghetti & Meatballs",
+      "description": "Tender meatballs, spaghetti and tomato sauce.",
+      "points": 7,
+      "costs": [
+        {
+          "ingredient": "Pasta",
+          "amount": 2
+        },
+        {
+          "ingredient": "Meat",
+          "amount": 2
+        },
+        {
+          "ingredient": "Sauce",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "eggplant",
+      "title": "Eggplant Parmigiana",
+      "description": "Layers of eggplant, cheese and tomato sauce.",
+      "points": 8,
+      "costs": [
+        {
+          "ingredient": "Vegetables",
+          "amount": 2
+        },
+        {
+          "ingredient": "Cheese",
+          "amount": 2
+        },
+        {
+          "ingredient": "Sauce",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "clams",
+      "title": "Linguine with Clams",
+      "description": "Clams and linguine; garlic and oil are pantry basics.",
+      "points": 7,
+      "costs": [
+        {
+          "ingredient": "Pasta",
+          "amount": 3
+        },
+        {
+          "ingredient": "Seafood",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "lasagna",
+      "title": "Lasagna al Ragù",
+      "description": "Pasta, rich meat ragù, sauce and cheese.",
+      "points": 11,
+      "costs": [
+        {
+          "ingredient": "Pasta",
+          "amount": 2
+        },
+        {
+          "ingredient": "Meat",
+          "amount": 2
+        },
+        {
+          "ingredient": "Sauce",
+          "amount": 2
+        },
+        {
+          "ingredient": "Cheese",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "title": "Chicken Parmigiana",
+      "description": "Chicken, cheese and tomato sauce with a side of pasta.",
+      "points": 11,
+      "costs": [
+        {
+          "ingredient": "Meat",
+          "amount": 3
+        },
+        {
+          "ingredient": "Pasta",
+          "amount": 1
+        },
+        {
+          "ingredient": "Cheese",
+          "amount": 2
+        },
+        {
+          "ingredient": "Sauce",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "seafood",
+      "title": "Seafood Pasta al Pomodoro",
+      "description": "A generous seafood pasta in tomato sauce.",
+      "points": 13,
+      "costs": [
+        {
+          "ingredient": "Pasta",
+          "amount": 3
+        },
+        {
+          "ingredient": "Seafood",
+          "amount": 3
+        },
+        {
+          "ingredient": "Sauce",
+          "amount": 2
+        }
+      ]
+    }
+  ],
+  "columnNames": [
+    "SAUCE",
+    "CHEESE",
+    "SEAFOOD"
+  ],
+  "rowNames": [
+    "QUICK PLATES",
+    "HOUSE FAVORITES",
+    "CHEF'S SIGNATURES"
+  ],
+  "columnIngredients": [
+    "Sauce",
+    "Cheese",
+    "Seafood"
+  ],
+  "scoring": {
+    "wastePenalty": 3,
+    "closingThreshold": 5,
+    "rowBonus": 5,
+    "columnBonus": 7,
+    "firstServiceBonus": 2,
+    "ruinedCountsForCollections": true,
+    "allResolvedTriggersClosing": true
+  }
+}
